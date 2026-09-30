@@ -1,12 +1,9 @@
 object_type: global_settings
 overrides:
-    "xmla.auth.token.enabled": "true"
-    "xmla.discover.properties.daxdialect": "tabular"
-    "aggregates.create.allowExactDistinctCountMeasures.enabled": "true"
-    "aggregates.prediction.checkForNonAdditiveMeasuresAndConstraints.enabled": "false"
-    "aggregates.withDistinctCounts.widening.enabled": "true"
-    "aggregates.create.withDistinctCounts.queryLevel.enabled": "true"
-    "query.factless.ignoreIncidentalFilter": "false"
-    "connection.pool.user.idleConnectionDuration": "6 hours"
-    "connection.pool.idleConnectionDuration": "6 hours"
-    "xmla.cube.lastDataUpdate.enabled": "true"
+  aggregates.create.allowExactDistinctCountMeasures.enabled: 'true'
+  aggregates.prediction.checkForNonAdditiveMeasuresAndConstraints.enabled: 'false'
+  aggregates.withDistinctCounts.widening.enabled: 'true'
+  connection.pool.idleConnectionDuration: 6 hours
+  connection.pool.user.idleConnectionDuration: 6 hours
+  xmla.auth.token.enabled: 'true'
+  xmla.discover.properties.daxdialect: tabular
