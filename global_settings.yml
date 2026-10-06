@@ -5,4 +5,5 @@ overrides:
   aggregates.withDistinctCounts.widening.enabled: 'true'
   connection.pool.idleConnectionDuration: 6 hours
   connection.pool.user.idleConnectionDuration: 6 hours
+  xmla.auth.token.enabled: 'true'
   xmla.discover.properties.daxdialect: tabular1600
