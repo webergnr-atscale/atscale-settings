@@ -3,7 +3,7 @@ overrides:
   aggregates.create.allowExactDistinctCountMeasures.enabled: 'true'
   aggregates.prediction.checkForNonAdditiveMeasuresAndConstraints.enabled: 'false'
   aggregates.withDistinctCounts.widening.enabled: 'true'
-  connection.pool.idleConnectionDuration: 6 hours
   connection.pool.user.idleConnectionDuration: 6 hours
   xmla.auth.token.enabled: 'true'
-  xmla.discover.properties.daxdialect: tabular1600
+  xmla.discover.properties.daxdialect: tabular
+  aggregates.batch.max.failures: '3'
