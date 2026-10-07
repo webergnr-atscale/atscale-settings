@@ -1,6 +1,6 @@
 object_type: global_settings
 overrides:
-  aggregates.batch.max.failures: '3'
+  aggregates.batch.max.failures: '5'
   aggregates.create.allowExactDistinctCountMeasures.enabled: 'true'
   aggregates.prediction.checkForNonAdditiveMeasuresAndConstraints.enabled: 'false'
   aggregates.withDistinctCounts.widening.enabled: 'true'
