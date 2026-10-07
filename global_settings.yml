@@ -1,9 +1,11 @@
 object_type: global_settings
 overrides:
-  aggregates.batch.max.failures: '11'
+  aggregates.batch.max.failures: '9'
   aggregates.create.allowExactDistinctCountMeasures.enabled: 'true'
   aggregates.prediction.checkForNonAdditiveMeasuresAndConstraints.enabled: 'false'
   aggregates.withDistinctCounts.widening.enabled: 'true'
   connection.pool.user.idleConnectionDuration: 6 hours
   xmla.auth.token.enabled: 'true'
   xmla.discover.properties.daxdialect: tabular
+  broken line without colon
+   : : bad
