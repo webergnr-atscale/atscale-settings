@@ -7,3 +7,5 @@ overrides:
   connection.pool.user.idleConnectionDuration: 6 hours
   xmla.auth.token.enabled: 'true'
   xmla.discover.properties.daxdialect: tabular
+  broken line without colon
+   : : bad
