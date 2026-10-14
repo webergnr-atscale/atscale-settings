@@ -26,7 +26,7 @@ overrides:
   query.cache.eviction.sizeLimit: '2000000'
   query.emptyValueCrossJoin.requireConstraints: 'false'
   query.language.sql.preventClientSideAggregation: 'true'
-  query.looker.kill_test.delay: 15 seconds
+  query.looker.kill_test.delay: 17 seconds
   query.planning.allowCtes: 'false'
   query.planning.unsecureTotals.enabled: 'true'
   query.scd.versionHistory.name: History Versions
