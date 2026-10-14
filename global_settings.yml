@@ -22,7 +22,6 @@ overrides:
   connection.pool.maxConnectionOpenDuration: 3 hours
   connection.pool.maxConsecutiveFailures: '20'
   connection.pool.user.idleConnectionDuration: 45 minutes
-  keycloak.max.retries: '5'
   query.cache.eviction.sizeLimit: '2000000'
   query.emptyValueCrossJoin.requireConstraints: 'false'
   query.language.sql.preventClientSideAggregation: 'true'
