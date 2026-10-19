@@ -1,2 +1,3 @@
 object_type: global_settings
-overrides: {}
+overrides:
+  xmla.auth.token.enabled: 'true'
