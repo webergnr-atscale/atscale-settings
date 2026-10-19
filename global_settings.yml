@@ -1,45 +1,5 @@
 object_type: global_settings
 overrides:
-  aggregate.batch.cube.gracePeriodOverrides.enabled: 'true'
-  aggregate.queue.priority.userDefined.enabled: 'false'
-  aggregate.snowflake.table.names.uppercase: 'true'
-  aggregates.create.compression.threshold.scd: '3.0'
-  aggregates.create.iris.nojourn.enabled: 'true'
-  aggregates.create.joins.compression: '50.0'
-  aggregates.create.joins.maximumDepth: '5'
-  aggregates.create.joins.prime.compression: '0.95'
-  aggregates.create.nonIncremental.fallback.ratio: '4.0'
-  aggregates.create.partition.hintedAggregate.enabled: 'false'
-  aggregates.create.strict.widening.enabled: 'true'
-  aggregates.create.threshold.enabled: 'false'
-  aggregates.dimensionalModifications.retentionLimit: '40'
-  aggregates.query.effectiveness.sampling.rate: '0.1'
-  aggregates.systemGenerated.activeInstance.retentionLimit: '150'
-  auth.user.normalize.lowercase: 'true'
-  catalog.deployment.restriction.enabled: 'true'
-  computeTableStats.onAllSubgroups.enabled: 'true'
-  connection.pool.idleConnectionDuration: 45 minutes
-  connection.pool.maxConnectionOpenDuration: 3 hours
-  connection.pool.maxConsecutiveFailures: '20'
-  connection.pool.user.idleConnectionDuration: 45 minutes
-  keycloak.max.retries: '5'
-  query.cache.eviction.sizeLimit: '2000000'
-  query.emptyValueCrossJoin.requireConstraints: 'false'
-  query.language.sql.preventClientSideAggregation: 'true'
-  query.looker.kill_test.delay: 15 seconds
-  query.planning.allowCtes: 'false'
-  query.planning.unsecureTotals.enabled: 'true'
-  query.scd.versionHistory.name: History Versions
-  schema.validate.calculations: 'false'
-  schema.validate.defaultMembers: 'false'
-  shareableStats.concurrent.worker.count: '2'
-  sml.validation.queries.enabled: 'false'
-  sparkSql.shufflePartitions.canary_query_role.partitions: '20'
-  sparkSql.shufflePartitions.large_user_query_role.enabled: 'true'
-  sparkSql.shufflePartitions.large_user_query_role.partitions: '200'
-  tableau.connector.type: atscale_pgwire
-  tableau.pgwire.client.protocol: atscale_pgwire
-  thrifty.client.protocol: simba
   xmla.auth.token.enabled: 'true'
   xmla.cube.lastDataUpdate.duration: 15 minutes
   xmla.discover.properties.daxdialect: tabular1600
